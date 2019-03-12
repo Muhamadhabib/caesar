@@ -5,3 +5,8 @@ for i in range(len(p)):
     a = (list.index(p[i])+3)%26
     c = c + list[a]
 print(c)
+
+filename = "D:\\CODE\\python\\text.txt"
+file = open(filename,"r")
+for line in file:
+    print(line)
