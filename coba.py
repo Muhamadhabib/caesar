@@ -1,5 +1,5 @@
 list = ["a","b",'c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z']
-p = "habib"
+p = "udinusbutuhlahanparkir"
 c = ""
 d = ""
 print("plantext : "+p)
@@ -10,9 +10,10 @@ print("enkripsi : "+c)
 for i in range(len(c)):
     a = (list.index(c[i])-3)%26
     d = d + list[a]
-print("dekripsi : "+d)
+print("dekripsi : "+d+"\n")
 nm = ""
 no = 0
+print("pemecahan enkripsi dengan teknik Brute Force : ")
 for line in range(25):
     for l in range(len(c)):
         de = (list.index(c[l])-line)%26
