@@ -22,10 +22,7 @@ for line in range(25):
         else: 
                 nm = nm + list[de]
 print(nm)
-<<<<<<< HEAD
 print("hello world")
 print("hello world v2")
-=======
->>>>>>> c292292a2a315fc9c9368b8d1f2155456e3c22c8
 
 
