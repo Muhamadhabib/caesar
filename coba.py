@@ -22,5 +22,7 @@ for line in range(25):
         else: 
                 nm = nm + list[de]
 print(nm)
+print("hello world")
+print("hello world v2")
 
 
