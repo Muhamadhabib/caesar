@@ -19,7 +19,7 @@ for line in range(25):
         no = no + 1
         if no % len(c) == 0:
                 nm = nm + list[de] + "\n"
-        else:
+        else: 
                 nm = nm + list[de]
 print(nm)
 
