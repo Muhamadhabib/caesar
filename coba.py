@@ -23,5 +23,6 @@ for line in range(25):
                 nm = nm + list[de]
 print(nm)
 print("hello world")
+print("hello world v2")
 
 
